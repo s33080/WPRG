@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WPRG5_4</title>
+</head>
+
+<style>
+	.whole{
+		border-left: 4px solid black;
+	}
+    .top-bottom{
+        display: flex;
+		justify-content: space-around;
+		background-color: lightgray;
+		padding: 15px;
+    }
+	.middle{
+		display: flex;
+		justify-content: space-between;
+		height: 200px;
+		margin: 20px;
+	}
+
+	.box{
+		border: 1px solid lightgray;
+		padding: 10px;
+	}
+</style>
+
+<body>
+	<div class="whole">
+    <div class="top-bottom">
+        <div>Strona główna</div>
+        <div>O nas</div>
+        <div>Kontakt</div>
+	</div>
+    <div class="middle">
+		<h3>Witaj na naszej skomplikowanej stronie!</h3>
+		<div class="middle">
+			<div class="box">
+				<h3>Funkcja 1</h3>
+				<p>Opis funkcji 1...</p>
+			</div>
+			<div class="box">
+				<h3>Funkcja 2</h3>
+				<p>Opis funkcji 2...</p>
+			</div>
+			<div class="middle">
+				<div class="box">
+					<h3>Funkcja 3</h3>
+					<p>Opis funkcji 3...</p>
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<h3>Dodatkowe informacje</h3>
+			<p>...</p>
+		</div>
+    </div>
+	<div class="top-bottom">
+        <div>&copy; 2023 Skomplikowana strona z flexboxem. Wszelkie prawa zastrzeżone.</div>
+	</div>
+	</div>
+</body>
+</html>
